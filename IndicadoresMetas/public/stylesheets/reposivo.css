@@ -1,0 +1,98 @@
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	vertical-align:baseline;
+}
+
+.container {
+	width: 100%;
+	background-image: url(../img/fundo.jpg);
+	background-size: 100%;
+	display: inline-block;
+}
+
+/* === header === */
+
+header div.logo {
+	
+}
+
+header div.logo img {
+	display: block;
+	margin: 3% auto;
+}
+
+header div.tituloTela {
+	text-align: center;
+}
+
+
+header div.tituloTela h1 {
+	font-size: 2.3em;
+	color: rgb(241,121,1);
+}
+
+header div.tituloTela h1>strong {
+	color: rgb(211,99,15);
+}
+
+/* === Fim header === */
+
+
+.content {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.tamb {
+	width: 98%;
+	height: 0;
+	padding-bottom: 98%;
+	background-color: rgba(241,121,1, 0.7);
+	border-radius: 50%;
+	margin: 9% auto;
+	float: left;
+	text-align: center;
+}
+
+.tamb:nth-child(1) > p{
+	margin: 43% 2%;    
+	font-size: 1.3em;
+
+	
+}
+.tamb:nth-child(2) > p{
+	margin: 43% 2%;
+	font-size: 1.3em;
+}
+.tamb:nth-child(3) > p{
+	margin: 43% 1.3%;
+	font-size: 1.3em;
+}
+ .tamb:nth-child(4) > p {
+ 	margin-top: 43%;
+ 	font-size: 1.3em;
+ }
+
+
+.numeroTamb {
+	text-align: center;
+	font-size: 2em;
+	background-color: #fff;
+	width: 30%;
+	height: 0;
+	padding-bottom: 30%;
+	margin: 0 auto;
+	top: -30px;
+	border-radius: 50%;
+	display: table;
+	color: rgb(241,121,1);
+	vertical-align: middle;
+
+}
+
+.numeroTamb h2 {
+	display: table-cell;
+	
+}

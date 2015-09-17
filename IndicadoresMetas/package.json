@@ -1,0 +1,17 @@
+{
+  "name": "IndicadoresMetas",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    
+    "ejs": "~2.3.3",
+    "express": "~4.13.1",
+    "express-load": "1.1.8"
+
+    
+    
+  }
+}
